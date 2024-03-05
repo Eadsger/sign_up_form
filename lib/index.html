@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="../lib/normalize.css" defer="defer">
+    <link rel="stylesheet" href="../lib/styles.css" defer="defer">
+</head>
+<body>
+    <div class="sidelogo">
+        <div class="sidebar">
+            <img src="../assets/Devicon-ruby-plain-wordmark.svg">
+            <p class="norse">Ruby</p>
+        </div>
+    </div>
+    <div class="rightside">
+        <div class="toptext">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="whitebox">
+            <p id="whitebox-p">Let's do this!</p>
+            <form>
+                <div class="formrow">
+                    <div class="form-element">
+                        <label>First Name
+                            <input type="text" id="name" autocomplete="given-name" required>
+                        </label>
+                    </div>
+                    <div class="form-element">
+                        <label>Last Name
+                            <input type="text" id="lastname" autocomplete="family-name" required>
+                        </label>
+                    </div>
+                </div>
+                <div class="formrow">
+                    <div class="form-element">
+                        <label>Email
+                            <input type="email" id="email" autocomplete="email" required>
+                        </label>
+                    </div>
+                    <div class="form-element">
+                        <label>Phone Number
+                            <input type="tel" id="phone" name="phone" autocomplete="tel-national" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                        required>
+                        </label>
+                    </div>
+                </div>
+                <div class="formrow">
+                    <div class="form-element">
+                        <label>Password
+                            <input type="password" id="password" required>
+                        </label>
+                        <p id="validation-error"></p>
+                    </div>
+                    <div class="form-element">
+                        <label>Confirm Password
+                            <input type="password" id="confirm_password" required>
+                        </label>
+                    </div>
+                </div>
+            </div>
+                <button type="submit" class="create-account">Create Account</button>        
+            </form>
+        <p id="account">Already have an account? <a href="#" class="login">Log in</a></p>
+    </div>
+    <script src="../lib/script.js"></script>
+</body>
+</html>

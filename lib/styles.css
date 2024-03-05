@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('../assets/norse-bold-webfont.woff2') format('woff2'),
+         url('../assets/norse-bold-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.norse {
+    font-family: 'norsebold', sans-serif;
+    color: white;
+    font-size: 90px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    outline: none;
+    margin-top: 25px;
+    border: none;
+    padding: 10px 40px 12px 40px;
+    font-size: .7rem;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.sidelogo {
+    position: relative;
+    background-image: url("../assets/Ruby.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 40%;
+}
+
+.sidebar {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    background-color: #0000005d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar img {
+    height: 110px;
+}
+
+
+
+.rightside {
+    position: relative;
+    width: 60%;
+    float: right;
+    background-color: #f7f8fa;
+}
+
+.toptext {
+    margin-top: 100px;
+    width: 425px;
+    margin-left: 30px;
+}
+
+.toptext p {
+    margin-top: 15px;
+}
+
+.whitebox {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    padding: 10px 35px 20px;
+    margin-top: 40px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+#whitebox-p {
+    margin-top: 5px;
+}
+
+.login {
+    color: #596D48;
+    text-decoration: none;
+}
+
+#account {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.formrow {
+    display: flex;
+}
+
+.form-element {
+    margin-right: 50px;
+    margin-top: 12px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 13px;
+    width: 185px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:required:focus {
+    border: 1px solid rgb(0, 119, 255);
+    outline: none;
+}
+
+input:focus:valid {
+    border: 1px solid #3964DC;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    outline: none;
+}
+  
+input:focus:invalid {
+    border: 1px solid #3964DC;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    outline: none;
+}
+
+input:invalid {
+    color: #C13838;
+}
+  
+  
+input:valid {
+  border: 1px solid #E5E7EB;
+}
+
+.error {
+  color: #C13838;
+  font-size: 9px;
+  margin-top: 3px;
+}
+
+.validated {
+  color: #3cd33c;
+}
+
+.create-account {
+  margin-left: 30px;
+}
+
+
+  

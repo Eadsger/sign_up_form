@@ -1,7 +1,10 @@
-# Sign-Up Form
+# Sign-up Form HTML Template
 
-This is a simple website project with dummy content. It's meant to serve as a basic template for web development projects.
+This is a basic HTML template for a sign-up form for an online service. It includes input fields for the user's first name, last name, email, phone number, password, and confirmation of the password.
 
-## Description
+## Features
 
-The project consists of an HTML file (`index.html`) and a CSS file (`styles.css`). The HTML file contains a basic structure for a webpage, including a header, navigation bar, main content area with sections, and a footer. The CSS file provides basic styling for the webpage elements.
+- Input fields for user information (first name, last name, email, phone number, password)
+- Form validation (not yet implemented)
+- Responsive design (with the help of included CSS files)
+- Easy to customize and extend
